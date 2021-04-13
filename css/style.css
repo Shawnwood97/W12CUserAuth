@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333333;
+  color: #c0c0c0;
+}
+
+#homeGrid {
+  display: grid;
+  place-items: center;
+  margin-top: 50px;
+}
+
+header {
+  text-align: center;
+  margin: 10px 0;
+}
+
+#valid {
+  color: #4aad4a;
+}
+
+#homeLink a {
+  color: orange;
+  text-decoration: none;
+}
+
+#colorsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 5px;
+  margin: 10px;
+}
+
+.color {
+  height: 200px;
+  display: grid;
+  place-items: center;
+  color: #000;
+}
